@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+    $nofog 1
+    $ignorez 1
+    $basetexture "skybox/sky_apote01_hdrrt"
+    $hdrbasetexture "skybox/sky_apote01_hdrrt"
+}
