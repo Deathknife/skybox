@@ -1,12 +1,12 @@
 # skybox
 
 Allows clients to change skybox. Saves choice.
-Chat commands:
+## Chat commands:
 !skybox !sky /skybox /sky
-Console commands:
+## Console commands:
 sm_skybox sm_sky
 
-Installation:
+## Installation:
 1. Place skybox.smx in your plugins folder
 2. Configure skybox.ini to your liking
 3. Place skybox.ini in your sourcemod/configs/ folder
