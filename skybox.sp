@@ -1,7 +1,7 @@
 #pragma semicolon 1
 
 #define PLUGIN_AUTHOR "Deathknife"
-#define PLUGIN_VERSION "1.00"
+#define PLUGIN_VERSION "1.01"
 
 #include <sourcemod>
 #include <sdktools>
@@ -64,7 +64,6 @@ public void OnClientCookiesCached(int client) {
 	if (IsFakeClient(client))
 		return;
 		
-	int client = GetClientOfUserId(data);
 	if(IsClientConnected(client)) {
 		//Buffer to store cookie
 		char buffer[64];
